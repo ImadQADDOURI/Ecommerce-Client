@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbaar from './components/header/Navbaar';
+import Slide from './components/home/Slide';
 
 function App() {
   return (
-    <div><Navbaar />
-    <h1>ggg</h1></div>
+    <div>
+      <div><Navbaar /></div>
+      <div><Slide/></div>
+      
+
+    </div>
    
   );
 }
