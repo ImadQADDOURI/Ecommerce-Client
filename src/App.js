@@ -3,9 +3,6 @@ import './App.css';
 import Navbaar from './components/header/Navbaar';
 import Slide from './components/home/Slide';
 
-import store from './store';
-
-
 function App() {
   return (
     <div>
